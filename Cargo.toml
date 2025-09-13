@@ -8,5 +8,7 @@ anyhow = "1.0.99"
 axum = "0.8.4"
 time = "0.3.43"
 tokio = { version = "1.47.1", features = ["macros", "rt-multi-thread"] }
+tower = "0.5.2"
+tower-http = { version = "0.6.6", features = ["normalize-path", "request-id", "sensitive-headers", "trace"] }
 tracing = "0.1.41"
 tracing-subscriber = { version = "0.3.20", features = ["env-filter", "fmt", "json", "time"] }
